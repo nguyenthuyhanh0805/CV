@@ -4,7 +4,8 @@
 }
 
 .whole-page{
-    margin: 20px 100px 5px 200px;
+    margin: 20px 100px 5px 250px;
+    max-width: 950px;   
 }
 .top-page{
     margin-left:80px;
@@ -19,13 +20,13 @@
 }
 .name{
     font-family: myFirstFont;
-    margin-left: 300px;
+    margin-left: 200px;
     margin-top: -130px;
     font-size: 38px;
 }
 .position-apply{
     font-size: 12px;
-    margin-left: 380px;
+    margin-left: 300px;
     margin-top: 10px;
     font-weight: bold;
 }
@@ -43,17 +44,17 @@
     margin-left:50px;
 }
 .phone{
-    margin-left: 330px;
-    margin-top: -20px;
+    margin-left: 350px;
+    margin-top: -22px;
 }
 .address{
     margin-left: 500px;
-    margin-top: -20px;
+    margin-top: -22px;
 }
 .skype-contact{
     float:right;
     margin-right:50px;
-    margin-top:-20px;
+    margin-top:-22px;
 }
 .skype{
     margin-left: 25px;
@@ -94,4 +95,36 @@
 }
 .margin-left-box{
     margin-left:50px;
+}
+.margin-top-box{
+    margin-top:3px;
+    margin-bottom:14.5px;
+}
+.progress-bar{
+    background-color: #6f4499 !important;
+    
+}
+.progress{
+    margin-top: 5px;
+}
+.dev-experience{
+    border-left: 1px solid #6f4499;
+    padding: 0 10px 3px 10px;
+    border-bottom: 1px solid #6f4499;
+}
+.freelencer-box{
+    border-right: 1px solid #6f4499;
+    padding: 5px 10px 3px 10px;
+    border-top: 1px solid #6f4499;
+}
+.skill{
+    border-right: 1px solid #6f4499;
+    padding: 5px 15px 0px 10px;
+    border-bottom: 1px solid #6f4499;
+    margin-top: 10px;
+}
+.compentency-box{
+     border-left: 1px solid #6f4499;
+    padding: 0 10px 3px 10px;
+    border-bottom: 1px solid #6f4499;
 }
