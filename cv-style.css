@@ -21,12 +21,13 @@
     font-family: myFirstFont;
     margin-left: 300px;
     margin-top: -130px;
-    font-size: 32px;
+    font-size: 38px;
 }
 .position-apply{
     font-size: 12px;
     margin-left: 380px;
     margin-top: 10px;
+    font-weight: bold;
 }
 .summarize{
     margin-left:120px;
@@ -39,19 +40,19 @@
 }
 .email{
     margin-top:5px;
-    margin-left:10px;
+    margin-left:50px;
 }
 .phone{
-    margin-left: 300px;
+    margin-left: 330px;
     margin-top: -20px;
 }
 .address{
-    margin-left: 470px;
+    margin-left: 500px;
     margin-top: -20px;
 }
 .skype-contact{
     float:right;
-    margin-right:70px;
+    margin-right:50px;
     margin-top:-20px;
 }
 .skype{
@@ -64,4 +65,33 @@
     background-size: cover;
     width: 20px;
     height: 20px
+}
+.body-page{
+    width:100%;
+}
+.work-experience{
+    
+}
+.skill-compentency{
+    margin-top:-3px;
+    
+}
+.title1{
+    font-family: myFirstFont;
+    font-size:24px;
+}
+.title2{
+    font-family: myFirstFont;
+    font-size:16px;
+    text-decoration: underline
+}
+.title3{
+    font-family: myFirstFont;
+    font-size:14px;
+}
+.horizontal-line{
+    border-bottom: 2px solid #6f4499;
+}
+.margin-left-box{
+    margin-left:50px;
 }
