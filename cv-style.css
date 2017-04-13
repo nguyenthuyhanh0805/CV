@@ -1,0 +1,67 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url('./font/UTMAristote.ttf');
+}
+
+.whole-page{
+    margin: 20px 100px 5px 200px;
+}
+.top-page{
+    margin-left:80px;
+    margin-right: 80px;
+}
+.img-profile{
+    width: 100px;
+    height: 130px;
+    border: 0.5px solid #eeeeee;
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px #888888;
+}
+.name{
+    font-family: myFirstFont;
+    margin-left: 300px;
+    margin-top: -130px;
+    font-size: 32px;
+}
+.position-apply{
+    font-size: 12px;
+    margin-left: 380px;
+    margin-top: 10px;
+}
+.summarize{
+    margin-left:120px;
+}
+.contact{
+    margin-top:30px;
+    background-color: #6f4499;
+    height: 30px;
+    color: white;
+}
+.email{
+    margin-top:5px;
+    margin-left:10px;
+}
+.phone{
+    margin-left: 300px;
+    margin-top: -20px;
+}
+.address{
+    margin-left: 470px;
+    margin-top: -20px;
+}
+.skype-contact{
+    float:right;
+    margin-right:70px;
+    margin-top:-20px;
+}
+.skype{
+    margin-left: 25px;
+    margin-top: -20px;
+}
+.icon-skype{
+    background-image: url('./img/icon-skype.png');
+    background-position: center;
+    background-size: cover;
+    width: 20px;
+    height: 20px
+}
