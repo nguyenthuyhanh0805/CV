@@ -1,0 +1,25 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "CV",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "gulp": "^3.9.1",
+    "gulp-html-pdf": "^0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyenthuyhanh0805/CV.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nguyenthuyhanh0805/CV/issues"
+  },
+  "homepage": "https://github.com/nguyenthuyhanh0805/CV#readme"
+}
