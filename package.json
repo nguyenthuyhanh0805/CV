@@ -4,9 +4,11 @@
   "description": "CV",
   "main": "gulpfile.js",
   "dependencies": {
+    "express": "^4.15.2",
     "fs": "0.0.1-security",
     "gulp": "^3.9.1",
-    "gulp-html-pdf": "^0.3.0"
+    "gulp-html-pdf": "^0.3.0",
+    "node-static": "^0.7.9"
   },
   "devDependencies": {},
   "scripts": {
