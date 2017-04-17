@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="./style.css" rel="stylesheet"/>
+        <link href="./cv-style.css" rel="stylesheet"/>
         <title>My CV</title>
 
        <!-- Latest compiled and minified CSS -->
@@ -15,64 +15,56 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
     </head>
-    <body>
-        <div class="form">
-            <div class="row">
-                <div class="left-side col-md-6">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div>
-                                <img src="./img/hanhnguyen.png" class="img-profile"/>
+    <body id="cv">
+        <div class="whole-page">
+            <div class="top-page">
+                <img class="img-profile" src="../img/hanh.png"/>
+                <div class="personal-detail">
+                    <h1 class="name">Nguyen Thuy Hanh</h1>
+                    <p class="position-apply">FRONT-END WEB DEVELOPER</p>
+                    <p class="summarize">I have one experience year in web development, especially in front-end. I work with Javascript, HTML5, CSS, Sass, Angular, ReactJS</p>
+                </div>
+            </div>
+            <div class="contact"> 
+                <div class="contact-row">
+                    <div><span class="glyphicon glyphicon-envelope email"></span> nguyenthuyhanh0805@gmail.com</div>
+                    <div class="phone"><span class="glyphicon glyphicon-phone"></span> 0974 851 941</div>
+                    <div class="address"><span class="glyphicon glyphicon-map-marker"></span> 34E 02 Street, Binh Tan District</div>
+                    <div class="skype-contact"><div class="icon-skype"></div> <p class="skype"> hanhnt0805</p></div>
+                </div>
+            </div>
+            <div class="body-page">
+                <div class="row">
+                    <div class="col-md-6 work-experience">
+                        <div class="margin-left-box">
+                            <h1 class="title1">Work Experiences</h1>
+                        </div>
+                        <div class="horizontal-line"></div>
+                        <div class="dev-experience margin-left-box">
+                            <h2 class="title2">Kix & Co Corp</h2>
+                            <h3 class="title3">Front-end Developer (03/2016-03/2017)</h3>
+                            <p>In this company, I worked with ReactJS, bootstrap, Sass. In detail,</p>
+                            <ul>
+                                <li>Developed front-end of web application</li>
+                                <li>Built UI/UX</li>
+                                <li>Worked with the team by Git, used task runner such as Gulp. Discussed together for new functions</li>
+                                <li>Wrote API</li>
+                            </ul>
+                        </div>
+                        <div class="freelenecer margin-left-box">
+                            <h2 class="title2">Freelancer</h2>
+                            <div class="freelencer-box">
+                                <h3 class="title3">Advanced Electric Project</h3>
+                            <p>In this project, I have worked with Angular 1, Bootstrap, Sharepoint. I've to build HTML as a given design, create function for this web app</p>
+                            <h3 class="title3">Lazy Land Project</h3>
+                            <p>In this project, I have worked with Angular 1, Bootstrap. The back-end, I have used MongoDB (with Mongoose) and NodeJs (with Express). I've to build HTML as a given design, create function for this online-sale-web app</p>
+                            <h3 class="title3">Swallow Project</h3>
+                            <p>In this project, I have just started this project in few days, I have worked with ReactJs, bootstrap, Sass. The back-end, I have used MongoDB (with Mongoose) and NodeJs (with Express). I've to build HTML by myself, create function for this online-sale-web app</p>
                             </div>
                         </div>
-                        <div class="col-md-8">
-                            <h3 class="title">Curriculum Vitae</h3>
-                            <h1 class="full-name">NGUYEN THUY HANH</h1>
-                            <h3 class="job-position">Front - end web developer</h3>
-                        </div>
-                        <div class="work-experience">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <ul class="history-bar">
-                                        <li class="li1">03/2016-03/2017</li>
-                                        <li class="li2">09/2015-02/2016</li>
-                                        <li class="li3">09/2015-02/2016</li>
-                                        <li class="li4">02/2017-now</li>
-                                    </ul>
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="margin-left-box">
-                                        <h1 class="title1">Work Experiences</h1>
-                                    </div>
-                                    <div class="horizontal-line"></div>
-                                    <div class="dev-experience margin-left-box">
-                                        <h2 class="title2">Kix & Co Corp</h2>
-                                        <h3 class="title3">Front-end Developer</h3>
-                                        <p>In this company, I worked with ReactJS, bootstrap, Sass. In detail,</p>
-                                        <ul>
-                                            <li>Developed front-end of web application</li>
-                                            <li>Built UI/UX</li>
-                                            <li>Worked with the team by Git, used task runner such as Gulp. Discussed together for new functions</li>
-                                            <li>Wrote API</li>
-                                        </ul>
-                                    </div>
-                                    <div class="freelenecer margin-left-box">
-                                        <div class="freelencer-box">
-                                            <h3 class="title3">Advanced Electric Project</h3>
-                                            <p>In this project, I have worked with Angular 1, Bootstrap, Sharepoint. I've to build HTML as a given design, create function for this web app</p>
-                                            <h3 class="title3">Lazy Land Project</h3>
-                                            <p>In this project, I have worked with Angular 1, Bootstrap. The back-end, I have used MongoDB (with Mongoose) and NodeJs (with Express). I've to build HTML as a given design, create function for this online-sale-web app</p>
-                                            <h3 class="title3">Swallow Project</h3>
-                                            <p>In this project, I have just started this project in few days, I have worked with ReactJs, bootstrap, Sass. The back-end, I have used MongoDB (with Mongoose) and NodeJs (with Express). I've to build HTML by myself, create function for this online-sale-web app</p>
-                                        </div>
-                                    </div>
-                                </div>
-                             </div>
-                        </div>
                     </div>
-                </div>
-                <div class="right-side col-md-6">
-                    <div class="margin-left-box">
+                    <div class="col-md-6 skill-compentency">    
+                        <div class="margin-left-box">
                             <h1 class="title1">Skills & Competencies</h1>
                         </div>
                         <div class="horizontal-line"></div>
@@ -176,6 +168,26 @@
                                 </ul>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-primary active btn-thank" data-toggle="modal" data-target="#thankModal">Thank you for see my CV</button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="thankModal" role="dialog">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                        <img class="img-thank" src="../img/minion-thank.jpg"/>
+                        <p class="txt-thank">I look forward to speaking with you about this employment opportunity.</p>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
