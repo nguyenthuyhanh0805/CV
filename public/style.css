@@ -58,7 +58,6 @@ body{
     float: right;
     margin:90px 5px 0px 5px;
     width: 60%;
-    height: 90px;
 }
 .work-experience-icon{
     width: 35px;
@@ -67,6 +66,7 @@ body{
     border-radius: 100%;
     margin-top: 20px;
     padding: 5px 1px 1px 2px;
+    margin-bottom: 5px
 }
 .work-experience-icon1{
     width: 35px;
@@ -75,6 +75,7 @@ body{
     border-radius: 100%;
     margin-top: 20px;
     padding: 2px 1px 1px 2px;
+    margin-bottom: 5px
     
 }
 .title{
@@ -84,13 +85,13 @@ body{
     margin-left: 40px;
     margin-top: -30px;
     font-weight: 600;
-    font-size:20px
+    font-size:20px;
 }
 .title2{
     margin-left: 40px;
     margin-top: -30px;
     font-weight: 600;
-    font-size: 20px
+    font-size: 20px;
     
 }
 .title3{
@@ -123,4 +124,20 @@ body{
 }
 .work-experience{
     float:left
+}
+.skill{
+    padding-right: 10px
+}
+
+.work-experience-icon2{
+    width: 22px;
+    height: 22px;
+    border-radius: 100%;
+    margin-right:10px;
+    margin-left:10px;
+}
+.profile-detail-icon{
+    margin-right:10px;
+    margin-left:10px;
+    font-weight: 600;
 }
