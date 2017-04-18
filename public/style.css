@@ -57,7 +57,7 @@ body{
 .img-profile{
     border-radius: 150%;
     float: right;
-    margin-top: 90px;
+    margin:90px 5px 0px 5px;
     width: 60%;
     height: 90px;
 }
@@ -85,13 +85,13 @@ body{
     margin-left: 50px;
     margin-top: -30px;
     font-weight: 600;
-    font-size:24px
+    font-size:22px
 }
 .title2{
     margin-left: 50px;
     margin-top: -30px;
     font-weight: 600;
-    font-size: 24px
+    font-size: 22px
     
 }
 .title3{
