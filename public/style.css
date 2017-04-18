@@ -91,32 +91,18 @@ body{
     color: #8f1e2b;
     font-weight: 600;
 }
-.li1{
-    padding-bottom:230px;
-    margin-top: 90px;
-}
+
 .icon1{
     height: 20px;
     width:20px;
     float: right;
     margin-right: -12px;
 }
-.li2{
-    padding-bottom:110px;
 
+.experience-box{
+    border-left:2px solid #b32424
 }
-.li3{
-    padding-bottom:130px;
-
+.time-point{
+    float: left;
+    margin-left: -135px;
 }
-.li4{
-    padding-bottom:120px;
-
-}
-.history-bar{
-    list-style-type: none;
-    border-right: 2px solid #b32424;
-    font-size:13px;
-
-}
-
