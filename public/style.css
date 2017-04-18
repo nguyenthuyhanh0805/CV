@@ -1,18 +1,18 @@
-@media (max-width: 305px) {
+@media screen and (max-width: 305px) {
     .form{
         margin: 2px 5px 0px 2px;
     }
     .first-introduce{
-    background-image: url('../img/box-thinking.png');
-    height: 50px;
-    width: 50px;
-    background-position: center;
-    background-size: cover;
-    margin-top: -50px;
-    float: right;
-    margin-right: 20px;
-    color: white;
-}
+        background-image: url('../img/box-thinking.png');
+        height: 50px;
+        width: 50px;
+        background-position: center;
+        background-size: cover;
+        margin-top: 0px;
+        float: right;
+        margin-right: 20px;
+        color: white;
+    }
 }
 
 
