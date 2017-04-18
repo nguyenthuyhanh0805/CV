@@ -55,11 +55,11 @@ body{
     font-family: arial;
 }
 .img-profile{
-   border-radius: 150%;
+    border-radius: 150%;
     float: right;
-    margin-top: 50px;
+    margin-top: 90px;
     width: 60%;
-    height: 100px;  
+    height: 90px;
 }
 .work-experience-icon{
     width: 35px;
