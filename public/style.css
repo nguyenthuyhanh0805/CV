@@ -41,7 +41,12 @@ body{
     padding-bottom:230px;
     margin-top: 90px;
 }
-
+.icon1{
+    height: 20px;
+    width:20px;
+    float: right;
+    margin-right: -12px;
+}
 .li2{
     padding-bottom:110px;
 
