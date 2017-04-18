@@ -49,9 +49,11 @@ body{
 }
 .form{
     background: linear-gradient(to right, #cfcfcf, white, white,white,#cfcfcf);
-    margin: 50px 200px 10px 200px;
+    margin: 50px 200px 30px 200px;
     box-shadow: 1px 2px 10px black;
     font-family: arial;
+    padding-bottom: 20px;
+    padding-top:10px
 }
 .img-profile{
     border-radius: 150%;
@@ -126,7 +128,7 @@ body{
     float:left
 }
 .skill{
-    padding-right: 10px
+    padding-right: 25px
 }
 
 .work-experience-icon2{
@@ -140,4 +142,7 @@ body{
     margin-right:10px;
     margin-left:10px;
     font-weight: 600;
+}
+.margin-top-progress-bar{
+    margin-top: -7px
 }
