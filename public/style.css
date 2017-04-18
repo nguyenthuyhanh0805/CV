@@ -3,7 +3,10 @@
         margin: 2px 5px 0px 2px;
     }
 }
-
+@font-face {
+    font-family: myFirstFont;
+    src: url('../font/UTMAristote.ttf');
+}
 
 @media (max-width: 793px) {
     .form{
@@ -52,8 +55,11 @@ body{
     font-family: arial;
 }
 .img-profile{
-    border-radius: 150%;
-    margin: 20px 5px 0px 30px;
+   border-radius: 150%;
+    float: right;
+    margin-top: 50px;
+    width: 50%;
+    height: 100px;  
 }
 .work-experience-icon{
     width: 35px;
@@ -61,7 +67,7 @@ body{
     border: 3px solid #8f1e2b;
     border-radius: 100%;
     margin-top: 20px;
-    padding: 2px 1px 1px 2px;
+    padding: 5px 1px 1px 2px;
 }
 .work-experience-icon1{
     width: 35px;
@@ -78,14 +84,24 @@ body{
 .title1{
     margin-left: 50px;
     margin-top: -30px;
+    font-weight: 600;
+    font-size:28px
 }
 .title2{
     margin-left: 50px;
     margin-top: -30px;
+    font-weight: 600;
+    font-size: 28px
+    
+}
+.title3{
+    font-weight: 600;
+    font-size: 18px
     
 }
 .full-name{
-    font-weight: 600
+    font-weight: 600;
+    font-family:myFirstFont
 }
 .job-position{
     color: #8f1e2b;
