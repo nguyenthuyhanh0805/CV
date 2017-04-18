@@ -17,13 +17,13 @@
 
 .hello{
     height: 300px;
-    margin:150px 10px 10px 0px
+    margin:300px 10px 10px 0px
 }
 .img-hello{
     height: 100%
 }
 .first-introduce{
-    background-image: url('../img/box-thinking.png');
+    background-image: url('./img/box-thinking.png');
     height: 350px;
     width: 370px;
     background-position: center;
