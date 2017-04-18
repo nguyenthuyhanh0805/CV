@@ -55,8 +55,32 @@ body{
     border-radius: 150%;
     margin: 20px 5px 0px 30px;
 }
+.work-experience-icon{
+    width: 35px;
+    height: 35px;
+    border: 3px solid #8f1e2b;
+    border-radius: 100%;
+    margin-top: 20px;
+    padding: 2px 1px 1px 2px;
+}
+.work-experience-icon1{
+    width: 35px;
+    height: 35px;
+    border: 3px solid #8f1e2b;
+    border-radius: 100%;
+    margin-top: 20px;
+    padding: 2px 1px 1px 2px;
+    margin-left:-20px;
+}
 .title{
     margin-top:50px;
+}
+.title1{
+    float:right
+}
+.title2{
+    float:right;
+    margin-right:250px;
 }
 .full-name{
     font-weight: 600
